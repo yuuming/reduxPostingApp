@@ -15,7 +15,7 @@ class PostsNew extends Component {
     return (
       <form>
         <Field label="Title" name="title" component={this.renderField} />
-        <Field label="Tags" name="tags" component={this.renderField} />
+        <Field label="Categories" name="Categories" component={this.renderField} />
         <Field
           label="Post Content"
           name="content"
