@@ -23,7 +23,7 @@ class PostsIndex extends Component {
   }
   render() {
     return (
-      <div className="text-xs-right">
+      <div className="text-xs-left">
           <Link className="btn btn-primary" to="/posts/new">
           Add d Post
           </Link>
